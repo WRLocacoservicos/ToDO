@@ -1,0 +1,196 @@
+
+/* header {
+  background-image: url(./img/fundo.png);
+  background-size: contain;
+  background-position-y: 55px;
+  background-color: #090455;
+  }  */
+
+
+/*to-do*/
+
+
+
+.header i {
+  font-size: 22px;
+} 
+
+.to-do {
+  display: block;
+  position: relative;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.textInsert {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  width: 90%;
+}
+
+.divInsert {
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 6px 5px 10px 0px grey;
+}
+
+ul{
+    margin-right: 10%;
+
+}
+
+button {
+  width: 10%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.divLi {
+  margin-top: 20px;
+  padding: 10px;
+  background: lightgray;
+  border-radius: 10px;
+  box-shadow: 6px 5px 10px 0px grey;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.divLi span {
+  width: 80%;
+  color: dimgray;
+}
+
+.divLi input {
+  width: 10%;
+  outline: none;
+  accent-color: currentcolor;
+}
+
+.divLi i {
+  font-size: 22px;
+  color: brown;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+
+  input {
+    width: 70%;
+  }
+
+  .divInsert button {
+    width: 30%;
+  }
+
+  i {
+    font-size: 30px;
+    padding: 0px;
+  }
+
+  p {
+    font-size: x-large;
+    color: black;
+  }
+
+  /*rdo*/
+
+
+  .rdo iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+  }
+  .rdo form {
+    border-radius: 0;
+  }
+
+  
+/*  */
+.containerFormRDO  {
+  height: 100%;
+  color: #0a0a0a;
+  display: flex;
+  flex-direction: column;
+}
+.containerFormRDO  label {
+  font-weight: bold;
+  color: #fff;
+}
+
+.cabecalho {
+  /* align-items: center; */
+  margin-top: 65vh;
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.cabecalho h2 {
+  text-align: center;
+}
+.funcionarios input{
+  width: 150px;
+  text-align: center;
+
+}
+
+.funcionarios p {
+  width: 100%;
+  display: flex;
+}
+.funcionarios{
+  margin-left: 5%;
+  gap: 10px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  margin-bottom: 15px;
+
+}
+.assinaturas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+  .assinaturas input {
+    text-align: center;
+  }
+
+  .botao{
+    display: flex;
+    margin: auto;
+    gap: 10px;
+  
+  }
+  .botao button{
+    font-weight: bold;
+    color: #ffff;
+  margin-bottom: 20px;
+  background-color: #09acdd;
+  width: 70px;
+  padding: 10px;
+  border-radius: 8px;
+
+}

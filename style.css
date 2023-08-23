@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+body {
+    background-color: whitesmoke;
+  }
+  
+  .to-do h1 {
+    text-align: center;
+  }
+
+  p {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #080202;
+  }
+  
+  .novatarefa {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+  }
+  
+  /* .header button {
+    position: absolute;
+    display: inline;
+    right: 18%;
+    margin-top: -30px;
+  }  */
+  
+  .divInsert i {
+   padding: 8px 15px;
+    
+  } 
+  
+  .to-do {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+  }
+  
+  .textInsert {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 90%;
+  }
+  
+  .divInsert {
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    box-shadow: 6px 5px 10px 0px grey;
+    width: 90%;
+  }
+  .divInsert input {
+    outline: none;
+    border: none;
+  }
+  .divInsert  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .bx-plus {
+    font-size: 30px;
+    margin-left: 10px;
+    background-color: rgb(34, 141, 190);
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+  }
+  
+  .divLi {
+  
+    margin-top: 20px;
+    padding: 5px;
+    background: lightgray;
+    border-radius: 10px;
+    box-shadow: 6px 5px 10px 0px grey;
+    display: flex;
+    word-wrap: break-word;
+
+  }
+  
+
+  
+  .divLi input {
+    width: 10%;
+    outline: none;
+    accent-color: currentcolor;
+    
+  }
+  
+  
+  li {
+    width: 80%;
+    white-space: pre-wrap;
+    list-style-type: none;
+  }
+  
+

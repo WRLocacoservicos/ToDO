@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="./responsivo.css">
+    <title>Tod-List</title>
+</head>
+
+<body>
+
+    <div class="to-do">
+        
+            <h1>Todo-List</h1>
+            <div class="divInsert">
+                <input type="text" id="newTask" class="textInsert" >
+                <button id="btn" onclick="createTask()"><i class='bx bx-plus'></i></button>
+            </div>
+            <div class="novatarefa" id="list">
+
+            </div>
+        
+    </div>
+
+
+
+
+    <!-- <div class="divInsert">
+        <input id="todolist" class="textInsert" type="text" />
+        <button><i class='bx bx-plus'></i></button>
+      </div>
+      <div class="novatarefa"></div>
+    </div> -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="./config.js"></script>
+    <script src="./scriptFir.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
