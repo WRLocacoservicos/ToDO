@@ -43,6 +43,21 @@ body {
     width: 90%;
   }
   
+  .to-do a {
+
+    padding: 5px;
+    
+
+  } 
+  .to-do a i {
+    padding: 5px;
+    font-size: 2em;
+    color: #ffffff;
+    background-color: #228dbe;
+    border-radius: 50%;
+    
+
+  }
   .textInsert {
     border: none;
     padding: 10px;
